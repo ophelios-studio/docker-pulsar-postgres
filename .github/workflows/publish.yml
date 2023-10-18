@@ -15,5 +15,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build the Docker image
         run: |
+          docker buildx create --use
           docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v8 --tag ghcr.io/ophelios-studio/docker-pulsar-postgres:latest .          
           docker push ghcr.io/ophelios-studio/docker-pulsar-postgres:latest
