@@ -1,4 +1,4 @@
-[![Publish to ghcr](https://github.com/ophelios-studio/docker-pulsar-postgres/actions/workflows/publish.yml/badge.svg)](https://github.com/ophelios-studio/docker-pulsar-php82/actions/workflows/publish.yml)
+[![Publish to ghcr](https://github.com/ophelios-studio/docker-pulsar-postgres/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/ophelios-studio/docker-pulsar-postgres/actions/workflows/publish.yml)
 
 # Docker Pulsar PostgreSQL 15
 
